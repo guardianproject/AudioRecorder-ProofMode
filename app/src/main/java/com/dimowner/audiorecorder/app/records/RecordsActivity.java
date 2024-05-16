@@ -270,7 +270,7 @@ public class RecordsActivity extends Activity implements RecordsContract.View, V
 				AndroidUtils.shareAudioFile(getApplicationContext(), item.getPath(), item.getName(), item.getFormat());
 			}
 			else if (menuId == R.id.menu_share_proof) {
-				
+
 				shareProof(item.getPath(),item.getName());
 			}
 			else if (menuId == R.id.menu_info) {
